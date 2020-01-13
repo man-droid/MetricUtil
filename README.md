@@ -30,4 +30,4 @@ Available conversions:
 - FAHRENHEIT_TO_CELSIUS
 - FAHRENHEIT_TO_KELVIN
 
-** That    it!! **
+* That's it!! *
