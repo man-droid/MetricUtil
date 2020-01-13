@@ -9,12 +9,10 @@ allprojects {
 			...
 			maven { url 'https://jitpack.io' }
 		}
-	}```
-
-
+	}
+```
 Add the dependency in your app module:
-
-``` 
+```
 dependencies {
 	        implementation 'com.github.man-droid:MetricUtil:0.1'
 	}```
