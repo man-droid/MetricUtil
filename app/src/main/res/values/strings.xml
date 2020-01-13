@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MetricLib</string>
+    <string-array name="temperature_conversion_type">
+        <item>Celsius to Fahrenheit</item>
+        <item>Celsius to Kelvin</item>
+        <item>Kelvin to Fahrenheit</item>
+        <item>Kelvin to Celsius</item>
+        <item>Fahrenheit to Celsius</item>
+        <item>Fahrenheit to Kelvin</item>
+    </string-array>
+</resources>
