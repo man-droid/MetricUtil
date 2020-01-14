@@ -17,7 +17,7 @@ dependencies {
 	        implementation 'com.github.man-droid:MetricUtil:0.1'
 	}
 ```
-#Sample
+## Sample
 
 ```
 MetricUtils.convertTemperature(0,  TempConversion.CELSIUS_TO_FAHRENHEIT)
