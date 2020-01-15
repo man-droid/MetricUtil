@@ -4,11 +4,10 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import mandroid.metric_utils.MetricUtils
-import mandroid.metric_utils.temperature.TempConversion
-import mandroid.metric_utils.temperature.TempConversion.*
+import mandroid.metric_utils.temperature.TempConversionType
+import mandroid.metric_utils.temperature.TempConversionType.*
 
 class MainActivity : AppCompatActivity() {
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -18,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    private fun getConversionType(pos: Int): TempConversion {
+    private fun getConversionType(pos: Int): TempConversionType {
         return when (pos) {
             0 -> CELSIUS_TO_FAHRENHEIT
             1 -> CELSIUS_TO_KELVIN

@@ -1,14 +1,14 @@
 package mandroid.metric_utils
 
-import mandroid.metric_utils.temperature.TempConversion
-import mandroid.metric_utils.temperature.TempConversion.*
+import mandroid.metric_utils.temperature.TempConversionType.*
+import mandroid.metric_utils.temperature.TempConversionType
 import java.math.RoundingMode
 import java.text.DecimalFormat
 
 
 object MetricUtils {
 
-    fun convertTemperature(temperature: Double,conversionType: TempConversion): String {
+    fun convertTemperature(temperature: Double, conversionType: TempConversionType): String {
         val df = DecimalFormat("#.###")
         df.roundingMode = RoundingMode.HALF_EVEN
         val convertedTemp=when (conversionType) {
