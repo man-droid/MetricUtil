@@ -1,2 +1,2 @@
-include ':app', ':metric-utils'
+include ':app', ':metric-utils', ':javalib'
 rootProject.name='MetricLib'
